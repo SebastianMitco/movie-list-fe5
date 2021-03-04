@@ -1,21 +1,56 @@
 .main {
   margin-top: 10px;
+  margin-left:10px;
 }
 
 .box {
   display: flex;
   justify-content: center;
+  background-color: aliceblue;
+  width: fit-content;
+  border-radius:5px;
 } 
-
-.listItem {
-  height: 24px;
-  margin: 4px;
+.list{
+  margin:1rem;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
 }
+.listItem {
+  max-width: 300px;
+  background-color: #293241 ;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  padding-bottom:2px;
+  margin:1rem;
+}
+.listItem img{
+  object-fit: cover;
+  height:400px;
+  width: 100%;
 
+}
 .listItem .addMovie {
   display: none;
+  position:absolute;
+  left:1rem;
 }
 
-.listItem:hover > .addMovie {
+.listItem:hover .addMovie {
   display: inline-flex;
-}s
+}
+.cardText{
+  padding:1rem;
+  margin-bottom: 2rem;
+  position:relative;
+}
+.movieTitle{
+  height:4rem;
+}
+.movieInfo{
+  text-align: center;
+}
+.movieDetails{
+  display:flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+
+.main {
+    margin-top: 10px;
+  }
+.star {
+    color: grey;
+  }
+
+  .active,
+  .star:hover {
+    color: orange;
+  }
+.movieItem{
+  max-width: 300px;
+  background-color: #293241;
+  margin:1rem;
+  }
+  .movieItem img{
+    object-fit: cover;
+    height:400px;
+    width: 100%;
+  }
+.footer{
+    color:rgb(226, 99, 71);
+    font-size: large;
+    background-color:rgb(120, 120, 120);
+  }
+  .cardText{
+    padding:1rem;
+  }
+.movieInfo{
+  display:flex;
+  justify-content: space-between;
+}
+
+.list{
+  max-width: 90%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
